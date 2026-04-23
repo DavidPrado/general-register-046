@@ -1,0 +1,177 @@
+2026-04-23T09:50:37.051-03:00  INFO 22996 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : Starting GeneralRegistrationApplication using Java 21.0.9 with PID 22996 (C:\Projeto Etec\general_registration\general_registration\target\classes started by David Stefani Prado in C:\Projeto Etec\general_registration)
+2026-04-23T09:50:37.092-03:00  INFO 22996 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-23T09:50:45.649-03:00  INFO 22996 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-23T09:50:45.662-03:00  INFO 22996 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2026-04-23T09:50:46.712-03:00  INFO 22996 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1019 ms. Found 15 R2DBC repository interfaces.
+2026-04-23T09:50:55.196-03:00  INFO 22996 --- [general-registration] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoints beneath base path '/actuator'
+2026-04-23T09:50:59.460-03:00  WARN 22996 --- [general-registration] [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-23T09:50:59.556-03:00  INFO 22996 --- [general-registration] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-23T09:50:59.647-03:00 ERROR 22996 --- [general-registration] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-04-23T10:02:30.897-03:00  INFO 9236 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : Starting GeneralRegistrationApplication using Java 21.0.9 with PID 9236 (C:\Projeto Etec\general_registration\general_registration\target\classes started by David Stefani Prado in C:\Projeto Etec\general_registration)
+2026-04-23T10:02:30.906-03:00  INFO 9236 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-23T10:02:34.077-03:00  INFO 9236 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-23T10:02:34.081-03:00  INFO 9236 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2026-04-23T10:02:34.392-03:00  INFO 9236 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 299 ms. Found 15 R2DBC repository interfaces.
+2026-04-23T10:02:37.386-03:00  INFO 9236 --- [general-registration] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoints beneath base path '/actuator'
+2026-04-23T10:02:40.268-03:00  WARN 9236 --- [general-registration] [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-23T10:02:40.302-03:00  INFO 9236 --- [general-registration] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-23T10:02:40.318-03:00 ERROR 9236 --- [general-registration] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-04-23T10:05:00.257-03:00  INFO 10440 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : Starting GeneralRegistrationApplication using Java 21.0.9 with PID 10440 (C:\Projeto Etec\general_registration\general_registration\target\classes started by David Stefani Prado in C:\Projeto Etec\general_registration)
+2026-04-23T10:05:00.259-03:00  INFO 10440 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-23T10:05:02.114-03:00  INFO 10440 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-23T10:05:02.118-03:00  INFO 10440 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2026-04-23T10:05:02.500-03:00  INFO 10440 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 372 ms. Found 15 R2DBC repository interfaces.
+2026-04-23T10:05:05.867-03:00  INFO 10440 --- [general-registration] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoints beneath base path '/actuator'
+2026-04-23T10:05:08.756-03:00  WARN 10440 --- [general-registration] [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-23T10:05:08.781-03:00  INFO 10440 --- [general-registration] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-23T10:05:08.797-03:00 ERROR 10440 --- [general-registration] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-04-23T10:15:45.462-03:00  INFO 6960 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : Starting GeneralRegistrationApplication using Java 21.0.9 with PID 6960 (C:\Projeto Etec\general_registration\general_registration\target\classes started by David Stefani Prado in C:\Projeto Etec\general_registration)
+2026-04-23T10:15:45.465-03:00  INFO 6960 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-23T10:15:46.650-03:00  INFO 6960 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-04-23T10:15:46.652-03:00  INFO 6960 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2026-04-23T10:15:46.838-03:00  INFO 6960 --- [general-registration] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178 ms. Found 15 R2DBC repository interfaces.
+2026-04-23T10:15:48.785-03:00  INFO 6960 --- [general-registration] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 6 endpoints beneath base path '/actuator'
+2026-04-23T10:15:49.462-03:00  INFO 6960 --- [general-registration] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8081 (http)
+2026-04-23T10:15:49.515-03:00  INFO 6960 --- [general-registration] [main] c.g.GeneralRegistrationApplication       : Started GeneralRegistrationApplication in 4.808 seconds (process running for 5.473)
+2026-04-23T10:15:49.874-03:00  WARN 6960 --- [general-registration] [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=general-registration, managementUrl=http://192.168.137.24:8081/actuator, healthUrl=http://192.168.137.24:8081/actuator/health, serviceUrl=http://192.168.137.24:8081/) at spring-boot-admin ([http://localhost:9090/instances]): Connection refused: getsockopt: localhost/127.0.0.1:9090. Further attempts are logged on DEBUG level
+2026-04-23T10:19:09.706-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-11] r.netty.http.client.HttpClientConnect    : [0f6809d3-1, L:/127.0.0.1:64592 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:19:19.550-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-12] r.netty.http.client.HttpClientConnect    : [1a423934-1, L:/127.0.0.1:64661 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:19:29.555-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-1] r.netty.http.client.HttpClientConnect    : [2732c40a-1, L:/127.0.0.1:64702 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:19:39.557-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-2] r.netty.http.client.HttpClientConnect    : [7ec1c8d7-1, L:/127.0.0.1:64766 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:19:49.547-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-3] r.netty.http.client.HttpClientConnect    : [d1db4e8c-1, L:/127.0.0.1:64829 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:19:59.544-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-4] r.netty.http.client.HttpClientConnect    : [3131977c-1, L:/127.0.0.1:64888 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:20:09.540-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-5] r.netty.http.client.HttpClientConnect    : [794f9448-1, L:/127.0.0.1:64955 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:20:19.540-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-6] r.netty.http.client.HttpClientConnect    : [4d045ecc-1, L:/127.0.0.1:65018 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:20:29.549-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-7] r.netty.http.client.HttpClientConnect    : [eace73f0-1, L:/127.0.0.1:65059 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:20:39.550-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-8] r.netty.http.client.HttpClientConnect    : [f916c54e-1, L:/127.0.0.1:52792 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:20:49.538-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-9] r.netty.http.client.HttpClientConnect    : [fea50c37-1, L:/127.0.0.1:52857 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:20:59.548-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-10] r.netty.http.client.HttpClientConnect    : [e295f0f6-1, L:/127.0.0.1:52905 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:21:09.535-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-11] r.netty.http.client.HttpClientConnect    : [1bf998fa-1, L:/127.0.0.1:52968 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:21:19.558-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-12] r.netty.http.client.HttpClientConnect    : [a310a5e6-1, L:/127.0.0.1:51660 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:21:29.550-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-1] r.netty.http.client.HttpClientConnect    : [d52a949a-1, L:/127.0.0.1:51702 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:21:39.545-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-2] r.netty.http.client.HttpClientConnect    : [70aaa0e5-1, L:/127.0.0.1:51765 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:21:49.551-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-3] r.netty.http.client.HttpClientConnect    : [b55d0346-1, L:/127.0.0.1:51828 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:21:59.561-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-4] r.netty.http.client.HttpClientConnect    : [b701f006-1, L:/127.0.0.1:51869 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:22:09.541-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-5] r.netty.http.client.HttpClientConnect    : [1a914cbf-1, L:/127.0.0.1:51932 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:22:19.547-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-6] r.netty.http.client.HttpClientConnect    : [3b0d7c29-1, L:/127.0.0.1:52002 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:22:29.550-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-7] r.netty.http.client.HttpClientConnect    : [8e54490d-1, L:/127.0.0.1:52043 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:22:39.555-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-8] r.netty.http.client.HttpClientConnect    : [33f54d69-1, L:/127.0.0.1:52107 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:22:49.536-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-9] r.netty.http.client.HttpClientConnect    : [d7ae69e8-1, L:/127.0.0.1:52172 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+
+2026-04-23T10:22:59.556-03:00  WARN 6960 --- [general-registration] [reactor-http-nio-10] r.netty.http.client.HttpClientConnect    : [9e3b0f4a-1, L:/127.0.0.1:52214 ! R:localhost/127.0.0.1:9090] The connection observed an error
+
+reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+

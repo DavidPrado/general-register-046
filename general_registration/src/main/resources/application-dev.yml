@@ -1,0 +1,65 @@
+server:
+  port: 28081  # Porta diferente para não conflitar com o Usuarios-ETEC (8081) nem com o Docker (8080)
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  application:
+    name: general-registration-DEV
+
+  codec:
+    max-in-memory-size: 10MB
+
+  # Banco de Dados (Mantendo a conexão com o banco que está no Docker)
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5435/etec046_db
+    username: etec046_root
+    password: "etec046@!2025"
+    pool:
+      initial-size: 2
+      max-size: 10
+
+  # Configurações do Spring Boot Admin Client
+  boot:
+    admin:
+      client:
+        url: http://localhost:29090
+        username: admin@etec.sp.gov.com.br
+        password: "Etec046@!"
+        instance:
+          # Informa ao Admin para buscar este serviço local na 8082
+          service-base-url: http://localhost:${server.port}
+          metadata:
+            user.name: ${spring.security.user.name}
+            user.password: ${spring.security.user.password}
+
+  # Segurança
+  security:
+    user:
+      name: admin-monitor
+      password: "Etec046@password"
+    oauth2:
+      resourceserver:
+        jwt:
+          secret-key-spec: "kHbjdX0iUYFIyKc9FULjbOgtA5mwr8CfcfeLNCxuxyGFBrfZsuRAKqCwXlrUUsYO"
+          jws-algorithm: HS512
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # Liberado para facilitar o desenvolvimento
+  endpoint:
+    health:
+      show-details: always
+    loggers:
+      enabled: true
+
+logging:
+  file:
+    name: logs/general-registration-dev.log
+  level:
+    root: INFO
+    org.springframework.web: DEBUG # Debug ativo para ver as requisições
+    org.springframework.data.r2dbc: DEBUG # Debug para ver as queries no banco
