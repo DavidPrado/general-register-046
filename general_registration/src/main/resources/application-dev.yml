@@ -13,9 +13,9 @@ spring:
 
   # Banco de Dados (Mantendo a conexão com o banco que está no Docker)
   r2dbc:
-    url: r2dbc:postgresql://localhost:5435/etec046_db
-    username: etec046_root
-    password: "etec046@!2025"
+    url: r2dbc:postgresql://localhost:5435/
+    username:
+    password:
     pool:
       initial-size: 2
       max-size: 10
@@ -25,8 +25,8 @@ spring:
     admin:
       client:
         url: http://localhost:29090
-        username: admin@etec.sp.gov.com.br
-        password: "Etec046@!"
+        username:
+        password:
         instance:
           # Informa ao Admin para buscar este serviço local na 8082
           service-base-url: http://localhost:${server.port}
@@ -37,13 +37,13 @@ spring:
   # Segurança
   security:
     user:
-      name: admin-monitor
-      password: "Etec046@password"
+      name:
+      password:
     oauth2:
       resourceserver:
         jwt:
-          secret-key-spec: "kHbjdX0iUYFIyKc9FULjbOgtA5mwr8CfcfeLNCxuxyGFBrfZsuRAKqCwXlrUUsYO"
-          jws-algorithm: HS512
+          secret-key-spec:
+          jws-algorithm:
 
 management:
   endpoints:
