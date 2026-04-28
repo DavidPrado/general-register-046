@@ -81,8 +81,12 @@ public class PessoaService {
 
     @Transactional
     public Mono<Pessoa> updatePessoa(UUID id, PessoaRequestDTO request) {
-        return pessoaRepository.findById(id).switchIfEmpty(Mono.error(new RuntimeException("Pessoa não encontrada"))).flatMap(pessoa -> {
-            return Mono.when(validateEmailUniqueness(pessoa, request), validateCpfUniqueness(pessoa, request)).then(Mono.defer(() -> updateAndSavePesso(pessoa, request)));
+        return pessoaRepository.findById(id)
+                .switchIfEmpty(Mono.error(new RuntimeException("Pessoa não encontrada")))
+                .flatMap(pessoa -> {
+            return Mono.when(
+                    validateEmailUniqueness(pessoa, request), validateCpfUniqueness(pessoa, request)
+            ).then(Mono.defer(() -> updateAndSavePesso(pessoa, request)));
 
         });
     }
